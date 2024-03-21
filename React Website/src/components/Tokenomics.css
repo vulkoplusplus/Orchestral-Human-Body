@@ -12,6 +12,7 @@
 .tokenomics-container {
   display: flex;
   text-align: start;
+  justify-content: space-around;
 }
 
 .tokenomics-section h1 {
