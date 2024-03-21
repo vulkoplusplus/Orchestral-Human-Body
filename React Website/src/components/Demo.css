@@ -1,0 +1,78 @@
+.demo-container {
+  /* background-image: url("../assets/dance.jpeg"); */
+  background-image: url("./meditation3.jpeg");
+  /* background-image: url("https://cdn.pixabay.com/photo/2020/04/25/12/14/circle-5090539_1280.jpg"); */
+  height: 99vh;
+  /* width: 100vw; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: 10vh;
+  overflow-x: hidden;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.demo {
+  background-color: #8d8df030;
+  backdrop-filter: blur(3px);
+  box-sizing: border-box;
+  border: 2px solid rgb(24, 3, 6);
+  box-shadow: -8px 8px 8px 13px rgba(1, 1, 1, 0.5);
+  display: flex;
+  align-items: center;
+  gap: 10vw;
+}
+
+.demo-container h1 {
+  text-align: center;
+  text-shadow: #e92222;
+}
+
+.demo p {
+  font-size: 2.4rem;
+}
+
+/* .demo1 {
+  margin-right: 10vh;
+  text-align: center;
+  flex-grow: 1;
+} */
+
+.demo1 {
+  margin: 9vh 6vw 9vh 6vw;
+}
+
+.demo2 {
+  margin: 9vh 0vw 9vh 9vw;
+}
+
+.demo3 {
+  margin: 9vh 6vw 9vh 6vw;
+}
+
+@media only screen and (max-width: 600px) {
+  .demo {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .demo p {
+    padding-bottom: 1rem;
+  }
+  .demo1 {
+    margin: 0px;
+    margin-bottom: 3rem;
+  }
+
+  .demo2 {
+    margin: 0px;
+    margin-bottom: 3rem;
+  }
+
+  .demo3 {
+    margin: 0px;
+  }
+}

@@ -1,0 +1,15 @@
+.navbar {
+  background-color: #00006f30;
+  text-align: center;
+  padding: 1.5vh;
+  height: 18vh;
+}
+
+.navbar img {
+  max-height: 90px; /* Logo size, can be adjusted */
+}
+
+.navbar h2 {
+  color: #004262;
+  margin-top: -1rem;
+}

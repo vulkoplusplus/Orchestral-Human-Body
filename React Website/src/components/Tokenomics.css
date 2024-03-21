@@ -1,0 +1,53 @@
+.tokenomics-section {
+  padding: 12vh 3vw 12vh 6vw;
+  background-color: #100414;
+  background: #fff url("../assets/waves_dark.jpeg") center / cover no-repeat;
+  min-height: 102vh;
+  text-align: center;
+  font-weight: 150;
+  font-size: 21px;
+  color: #fff;
+}
+
+.tokenomics-container {
+  display: flex;
+  text-align: start;
+}
+
+.tokenomics-section h1 {
+  margin-bottom: 18vh;
+  font-size: xxx-large;
+}
+
+.tokenomics-container text {
+  display: flex;
+  flex-direction: column;
+}
+
+.funding-list {
+  margin-left: 1.5vw;
+}
+
+.bold {
+  font-weight: 300;
+}
+
+@media (max-width: 1024px) {
+  .tokenomics-section h1 {
+    margin: -9vh 0vw 9vh 0vw;
+    font-size: xxx-large;
+  }
+  .tokenomics-section {
+    padding: 6vh 6vw;
+  }
+  .tokenomics-container {
+    flex-direction: column-reverse;
+  }
+  .img-section {
+    margin-bottom: 9vh;
+    max-width: 100px;
+  }
+  .img-section img {
+    max-width: 90vw;
+  }
+}

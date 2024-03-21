@@ -1,0 +1,7 @@
+.footer {
+  background-image: linear-gradient(to bottom, #0e0e38, #0c202f);
+  min-height: 9vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

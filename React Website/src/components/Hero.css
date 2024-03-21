@@ -1,0 +1,35 @@
+.hero {
+  text-align: center;
+  padding: 9vh 3vw;
+  background: #fff url("../assets/dance3.jpeg") center / cover no-repeat;
+  color: #b9e6f0;
+  min-height: 81.9vh;
+}
+
+.hero h1 {
+  font-size: xxx-large;
+  font-weight: 300;
+  margin: 6vh 0;
+}
+
+.hero h2 {
+  font-size: xx-large;
+  font-weight: 100;
+  margin: 18vh 0;
+  line-height: 3rem;
+  letter-spacing: 0.15rem;
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 540px) {
+  .hero {
+    text-align: center;
+    padding: 3vh 3vw;
+    line-height: 3rem;
+  }
+  .hero h2 {
+    font-size: x-large;
+    margin: 9vh 0;
+  }
+}
