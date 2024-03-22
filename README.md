@@ -2,9 +2,10 @@
 
 
 Website: https://d77rulk12plz0.cloudfront.net/
+
+
 Foundance-link: https://app.foundance.org/projects/10495
 
 
 
-
-* This project is part of Soonami Venturethon Cohort 3, March, 2024
+This project is part of Soonami Venturethon Cohort 3, March, 2024
