@@ -98,7 +98,7 @@
 .col-workflow-item {
   max-width: 45%;
   margin: 0vh 0vw;
-  align-self: flex-end;
+  align-self: center;
 }
 
 .row-1 {
@@ -129,13 +129,17 @@
 }
 .arrow-down {
   transform: rotate(90deg);
-  align-self: end;
-  margin-right: 4.5vw;
+  align-self: center;
+  /* margin-right: 3.9vw; */
 }
+
 .tech-img {
-  max-width: 45vw;
-  max-height: 45vh;
+  max-width: 60vw;
+  max-height: 60vh;
+  margin-top: 3vh;
   object-fit: contain;
+  box-shadow: 0 4px 8px #eef2f630;
+  border-radius: 15px;
 }
 
 .tech-img-mobile {
@@ -192,5 +196,7 @@
     display: block;
     height: 100%;
     width: 100%;
+    box-shadow: 0 4px 8px #eef2f630;
+    border-radius: 15px;
   }
 }

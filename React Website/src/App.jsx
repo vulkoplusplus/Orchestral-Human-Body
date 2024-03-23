@@ -15,7 +15,7 @@ function App() {
       <About />
       <Demo />
       <Team />
-      <Tokenomics />
+      {/* <Tokenomics /> */}
       <Footer />
     </>
   );

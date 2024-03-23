@@ -2,46 +2,14 @@ import React, { useState, useRef, useEffect } from "react";
 import "./Demo.css";
 import play from "../assets/play.svg";
 import stop from "../assets/stop.svg";
+import melody0 from "../assets/sound/melody0.wav";
+import melody1 from "../assets/sound/melody1.wav";
+import melody2 from "../assets/sound/melody2.wav";
 
 const Demo = () => {
   const [isDemo1Playing, setIsDemo1Playing] = useState(false);
   const [isDemo2Playing, setIsDemo2Playing] = useState(false);
   const [isDemo3Playing, setIsDemo3Playing] = useState(false);
-
-  // const handleAudioEnd = (id) => {
-  //   switch (id) {
-  //     case "demo1":
-  //       setIsDemo1Playing(false);
-  //       break;
-  //     case "demo2":
-  //       setIsDemo2Playing(false);
-  //       break;
-  //     case "demo3":
-  //       setIsDemo3Playing(false);
-  //       break;
-  //     default:
-  //   }
-  // };
-
-  // // Initialize the audio objects with event listeners
-  // const initAudioRef = (ref, id) => {
-  //   ref.current.addEventListener("ended", () => handleAudioEnd(id));
-  // };
-
-  // // Create refs for each audio element
-  // const audioRef1 = useRef(
-  //   initAudioRef(new Audio(import.meta.env.VITE_DEMO1_URL), "demo1")
-  // );
-  // const audioRef2 = useRef(
-  //   initAudioRef(new Audio(import.meta.env.VITE_DEMO2_URL), "demo2")
-  // );
-  // const audioRef3 = useRef(
-  //   initAudioRef(new Audio(import.meta.env.VITE_DEMO3_URL), "demo3")
-  // );
-
-  // const audioRef1 = useRef(new Audio(import.meta.env.VITE_DEMO1_URL));
-  // const audioRef2 = useRef(new Audio(import.meta.env.VITE_DEMO2_URL));
-  // const audioRef3 = useRef(new Audio(import.meta.env.VITE_DEMO3_URL));
 
   const musicHandler = (event) => {
     const { id, action } = event;
@@ -91,9 +59,9 @@ const Demo = () => {
 
   useEffect(() => {
     // Create and set the audio elements to the refs
-    audioRef1.current = new Audio(import.meta.env.VITE_DEMO1_URL);
-    audioRef2.current = new Audio(import.meta.env.VITE_DEMO2_URL);
-    audioRef3.current = new Audio(import.meta.env.VITE_DEMO3_URL);
+    audioRef1.current = new Audio(melody0);
+    audioRef2.current = new Audio(melody1);
+    audioRef3.current = new Audio(melody2);
 
     // Define the function to handle the end of the audio
     const handleAudioEnd = (id) => {
@@ -124,7 +92,6 @@ const Demo = () => {
   }, []);
   return (
     <div className="demo-container" id="demo-container">
-      {/* <h1> Demo </h1> */}
       <div className="demo demo1">
         <img
           onClick={() => {
