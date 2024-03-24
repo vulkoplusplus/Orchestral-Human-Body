@@ -1,0 +1,46 @@
+1. Name of the project
+The Orchestral Human Body
+
+
+2. Logo
+See ohb_logo
+
+
+3. Description (150 words)
+The Orchestral Human Body isn't just another project; it's a fresh and exciting way to connect with our health. With AI sonification technology, a huge market opportunity and a team full of big dreamers, we're ready to make a significant impact. This project is about bringing health and music together in a way that's never been done before. By turning the detailed health data from our bodies and organs into music. We offer a unique way of looking at our health, making it easier and much more intuitive to stay in tune with our bodies, especially for the visually impaired. As we move into this new territory, we're not just changing healthcare, we're improving the way we all feel and live, and bringing people together through the power of music. The future is bright, let us welcome a "New Dawn in Musical Health".
+
+
+4. GitHub Link
+https://github.com/vulkoplusplus/Orchestral-Human-Body
+
+README file. (In Github Folder.)
+
+
+5. Pitch Deck
+See 240324_Pitchdeck (uploaded Foundance Project Page)
+
+5. Pitching Video (3 minutes)
+See https://youtu.be/jzKGw555w70
+
+
+6. URL Link to Website (with Live Demo if possible)
+https://d77rulk12plz0.cloudfront.net/
+(Demo songs from our Sonificaiton Engine is available).
+
+
+7. Live Demo Video (up to 3 minutes, optional)
+We skipped this part since we have a website.
+
+
+8. Team Members/Project Roles
+See https://app.foundance.org/projects/10495?tab=team
+
+
+9. Discord Handles and emails of all team member:
+Allid Ferrow, allid_ai, Allid.ferrow@gmail.com
+Rishi Tiwari, sumoboy123, rishi008.tiwari@gmail.com
+
+
+10. 3 Minutes survey of your experience
+Allid - done!
+
