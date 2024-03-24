@@ -92,20 +92,10 @@ const Demo = () => {
   }, []);
   return (
     <div className="demo-container" id="demo-container">
+      <h1 id="demo-heading">
+        AI Maestro - Our Proprietary Sonification Engine
+      </h1>
       <div className="demo demo1">
-        <img
-          onClick={() => {
-            musicHandler({
-              id: "demo1",
-              action: isDemo1Playing ? "stop" : "start",
-            });
-          }}
-          src={isDemo1Playing ? stop : play}
-          alt="play-button"
-        />
-        <p>A Six-Month Heartbeat Journey Through COVID</p>
-      </div>
-      <div className="demo demo2">
         <img
           onClick={() => {
             musicHandler({
@@ -116,9 +106,12 @@ const Demo = () => {
           src={isDemo2Playing ? stop : play}
           alt="play-button"
         />
-        <p>Lorem ipsum dolor sit</p>
+        <p>
+          Urban Wanderlust Serenade" - A lively walking through town, engaging
+          with the hustle and bustle
+        </p>
       </div>
-      <div className="demo demo3">
+      <div className="demo demo2">
         <img
           onClick={() => {
             musicHandler({
@@ -129,7 +122,23 @@ const Demo = () => {
           src={isDemo3Playing ? stop : play}
           alt="play-button"
         />
-        <p>Lorem ipsum dolor sit </p>
+        <p>
+          Sanctuary's Gentle Embrace" - the peace and comfort of being at home,
+          at rest{" "}
+        </p>
+      </div>
+      <div className="demo demo3">
+        <img
+          onClick={() => {
+            musicHandler({
+              id: "demo1",
+              action: isDemo1Playing ? "stop" : "start",
+            });
+          }}
+          src={isDemo1Playing ? stop : play}
+          alt="play-button"
+        />
+        <p>Gentle Jog Through Hamburg</p>
       </div>
     </div>
   );

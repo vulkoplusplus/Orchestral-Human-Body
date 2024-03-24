@@ -1,8 +1,8 @@
 .demo-container {
   /* background-image: url("../assets/dance.jpeg"); */
-  background-image: url("./meditation3.jpeg");
+  background-image: url("../assets/meditation_dark.jpeg");
   /* background-image: url("https://cdn.pixabay.com/photo/2020/04/25/12/14/circle-5090539_1280.jpg"); */
-  height: 99vh;
+  height: 111vh;
   /* width: 100vw; */
   background-size: cover;
   background-repeat: no-repeat;
@@ -23,11 +23,17 @@
   display: flex;
   align-items: center;
   gap: 10vw;
+  border-radius: 6px;
 }
 
 .demo-container h1 {
   text-align: center;
   text-shadow: #e92222;
+}
+
+#demo-heading {
+  font-size: xxx-large;
+  font-weight: 300;
 }
 
 .demo p {
@@ -74,5 +80,10 @@
 
   .demo3 {
     margin: 0px;
+  }
+
+  #demo-heading {
+    margin-bottom: 9vh;
+    text-align: center;
   }
 }

@@ -4,6 +4,7 @@ import melody from "../assets/melody.svg";
 import hands from "../assets/hand.svg";
 import arrow from "../assets/arrow.svg";
 import about from "../assets/about.png";
+import padlock from "../assets/padlock.svg";
 
 const About = () => {
   return (
@@ -15,21 +16,21 @@ const About = () => {
             <img className="wearables" src={wearable} alt="wearables" />
             <div>
               <h2>Wearables</h2>
-              <p>Monitor your health</p>
+              <p>Monitor your health with music</p>
             </div>
           </div>
           <div className="benefit-item">
             <img src={melody} alt="melody" />
             <div>
               <h2>Melody</h2>
-              <p>Turn your health into music</p>
+              <p>Turn your everyday into melodies</p>
             </div>
           </div>
           <div className="benefit-item">
             <img src={hands} alt="blockchain" />
             <div>
               <h2>Safety</h2>
-              <p>Your data is secure</p>
+              <p>Your data is kept secure and anonymous</p>
             </div>
           </div>
         </div>
@@ -40,7 +41,10 @@ const About = () => {
               Wristband, Smartwatch, Oura Ring records your health & fitness
               data.
             </div>
-            <img src={arrow} alt="" className="arrow" />
+            {/* <img src={arrow} alt="" className="arrow" /> */}
+            <div className="arrow-icon" id="arrow-left">
+              &#8594;
+            </div>
             <div id="workflow-item-2" className="workflow-item">
               AI maestro turns this data into music.
             </div>
@@ -49,14 +53,16 @@ const About = () => {
           <div className="row-2">
             <img src={about} className="tech-img" />
             <div className="column-1">
-              <img src={arrow} alt="" className="arrow arrow-down" />
+              {/* <img src={arrow} alt="" className="arrow arrow-down" /> */}
+              <div className="arrow-icon">&#8595;</div>
               <div
                 id="workflow-item-3"
                 className="workflow-item col-workflow-item"
               >
                 Turning into your personal health symphony.
               </div>
-              <img src={arrow} alt="" className="arrow arrow-down" />
+              {/* <img src={arrow} alt="" className="arrow arrow-down" /> */}
+              <div className="arrow-icon">&#8595;</div>
               <div
                 id="workflow-item-4"
                 className="workflow-item col-workflow-item"

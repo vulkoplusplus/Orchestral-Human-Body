@@ -122,15 +122,20 @@
   justify-content: center;
 }
 
-.arrow {
+/* .arrow {
   max-width: 12vh;
   max-height: 12vh;
   object-fit: contain;
-}
-.arrow-down {
+} */
+
+/* .arrow-down {
   transform: rotate(90deg);
   align-self: center;
-  /* margin-right: 3.9vw; */
+  margin-right: 3.9vw;
+} */
+
+.arrow-icon {
+  font-size: xxx-large;
 }
 
 .tech-img {
@@ -198,5 +203,9 @@
     width: 100%;
     box-shadow: 0 4px 8px #eef2f630;
     border-radius: 15px;
+  }
+
+  #arrow-left {
+    transform: rotate(90deg);
   }
 }

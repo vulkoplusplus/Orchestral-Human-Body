@@ -1,0 +1,124 @@
+.roadmap-section {
+  text-align: center;
+  background-image: linear-gradient(to bottom, #0e0e38, #0c202f);
+  color: #b9e6f0;
+  height: 105vh;
+  padding: 6vh;
+}
+
+.roadmap-header h1 {
+  margin-bottom: 9vh;
+  font-size: xxx-large;
+  font-weight: 300;
+}
+
+.roadmap {
+  max-width: 1200px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.roadmap::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 6px;
+  margin-left: -3px;
+  background-color: #fff;
+}
+
+.milestone {
+  width: 50%;
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+}
+
+.milestone::after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  right: -17px;
+  width: 25px;
+  height: 25px;
+  z-index: 1;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 5px solid #00006f30;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  left: 50%;
+}
+
+.left::before {
+  content: " ";
+  position: absolute;
+  top: 22px;
+  right: 30px;
+  width: 0;
+  height: 0;
+  z-index: 1;
+  border: medium solid #fff;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent #fff;
+}
+
+.right::before {
+  content: " ";
+  position: absolute;
+  top: 22px;
+  left: 30px;
+  width: 0;
+  height: 0;
+  z-index: 1;
+  border: medium solid #fff;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #fff transparent transparent;
+}
+
+.right::after {
+  left: -18px;
+}
+
+.content {
+  padding: 20px 30px;
+  position: relative;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px #eef2f630;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .roadmap::after {
+    left: 31px;
+  }
+
+  .milestone {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+  .milestone::before {
+    left: 60px;
+    border: medium solid #fff;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #fff transparent transparent;
+  }
+
+  .left::after,
+  .right::after {
+    left: 14px;
+  }
+
+  .right {
+    left: 0%;
+  }
+}
