@@ -2,7 +2,7 @@
   text-align: center;
   background-image: linear-gradient(to bottom, #0e0e38, #0c202f);
   color: #b9e6f0;
-  height: 105vh;
+  min-height: 105vh;
   padding: 6vh;
 }
 
@@ -93,6 +93,11 @@
   border-radius: 6px;
   box-shadow: 0 4px 8px #eef2f630;
   border-radius: 15px;
+  font-size: medium;
+}
+
+.content p {
+  margin: 3px;
 }
 
 @media screen and (max-width: 768px) {

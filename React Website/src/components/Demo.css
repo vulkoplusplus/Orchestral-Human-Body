@@ -2,7 +2,7 @@
   /* background-image: url("../assets/dance.jpeg"); */
   background-image: url("../assets/meditation_dark.jpeg");
   /* background-image: url("https://cdn.pixabay.com/photo/2020/04/25/12/14/circle-5090539_1280.jpg"); */
-  height: 111vh;
+  min-height: 111vh;
   /* width: 100vw; */
   background-size: cover;
   background-repeat: no-repeat;

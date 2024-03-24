@@ -8,19 +8,32 @@ const Roadmap = () => {
       description: [
         "Developing AI Maestro with Magenta",
         "Data integration with wearables",
+        "EIR Track",
       ],
     },
     {
       id: "24Q3",
-      description: ["Integrate Ableton library", "API development"],
+      description: [
+        "Integrate Ableton library",
+        "API development",
+        "GDPR Compliance",
+      ],
     },
     {
       id: "24Q4",
-      description: ["Beta - product validation", "Implement cloud solution"],
+      description: [
+        "Beta - product validation",
+        "Implement cloud solution",
+        "Series-A Fundraising",
+      ],
     },
     {
       id: "25Q1",
-      description: ["Product launch", "Advanced encryption/anonymization"],
+      description: [
+        "Product launch",
+        "Advanced encryption / anonymization",
+        "Subscription-based revenue model",
+      ],
     },
   ];
 

@@ -92,9 +92,7 @@ const Demo = () => {
   }, []);
   return (
     <div className="demo-container" id="demo-container">
-      <h1 id="demo-heading">
-        AI Maestro - Our Proprietary Sonification Engine
-      </h1>
+      <h1 id="demo-heading">AI Maestro Demo</h1>
       <div className="demo demo1">
         <img
           onClick={() => {
@@ -107,7 +105,7 @@ const Demo = () => {
           alt="play-button"
         />
         <p>
-          Urban Wanderlust Serenade" - A lively walking through town, engaging
+          "Urban Wanderlust Serenade" - A lively walking through town, engaging
           with the hustle and bustle
         </p>
       </div>
@@ -123,7 +121,7 @@ const Demo = () => {
           alt="play-button"
         />
         <p>
-          Sanctuary's Gentle Embrace" - the peace and comfort of being at home,
+          "Sanctuary's Gentle Embrace" - the peace and comfort of being at home,
           at rest{" "}
         </p>
       </div>
